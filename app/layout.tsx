@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
-import { Josefin_Sans } from "next/font/google";
+import { Noto_Sans } from "next/font/google";
 import { ThemeProvider } from "@/context";
 import { SiteHeader } from "@/components/site-header";
 import "./globals.css";
 
-const josefinSans = Josefin_Sans({
+const notoSans = Noto_Sans({
   subsets: ["latin"],
 });
 
@@ -21,7 +21,7 @@ export default function HomeLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={`${josefinSans.className} antialiased`}>
+      <body className={`${notoSans.className} antialiased`}>
         <ThemeProvider
           attribute="class"
           defaultTheme="system"
