@@ -9,9 +9,9 @@ const josefinSans = Josefin_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Next.js Template",
+  title: "Browser Extension Manager UI",
   description:
-    "A starter template repository with next.js using app router, pre-configured with typescript, tailwind css and shadcn/ui.",
+    "This is the solution to browser extension manager ui challenge on frontend mentor",
 };
 
 export default function HomeLayout({
